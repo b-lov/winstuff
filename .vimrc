@@ -2,6 +2,9 @@
 set visualbell
 set noerrorbells
 set number relativenumber
+set incsearch
+set ignorecase
+set smartcase
 
 " mappings
 let mapleader = " "
