@@ -41,4 +41,4 @@ map <leader>e <Plug>(easymotion-f)
 " idea settings
 set ideajoin
 set ideastatusicon=gray
-set idearefactormode=keep
+set iderefactormode=keep
