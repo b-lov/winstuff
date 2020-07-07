@@ -7,7 +7,7 @@ set ignorecase
 set smartcase
 set showmode
 set scrolloff=5
-set clipboard+=unnamed
+" set clipboard+=unnamed
 
 " mappings
 let mapleader = " "
