@@ -1,4 +1,4 @@
-# Winscripts
+# Winstuff
 *scripts and infos to make a windows machine ready for development*
 ## Links
 * [EN International Keyboard without dead keys](https://github.com/thomasfaingnaert/win-us-intl-altgr/releases/download/v1.0/us-inter.zip)
@@ -17,9 +17,11 @@ iwr -useb get.scoop.sh | iex
 - add buckets
 ```
 scoop bucket add extras
+scoop bucket add nerd-fonts
 ```
 - install apps
 ```
 scoop install vcredist2015
 scoop install neovim
+scoop install firacode
 ```
