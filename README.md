@@ -6,7 +6,7 @@
 * [Scoop Package Manager](https://github.com/lukesampson/scoop)
 
 ## Commands
-create hard link for .ideavimrc
+create hard link for .ideavimrc *(run in cmd)*
 
 ```
 mklink /h C:\Users\{USER}\.ideavimrc C:\Users\{USER}\winstuff\phpstorm\.ideavimrc
