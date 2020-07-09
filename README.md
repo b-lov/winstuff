@@ -60,6 +60,8 @@ create hard link for .ideavimrc *(run in cmd)*
 mklink /h C:\Users\{USER}\.ideavimrc C:\Users\{USER}\winstuff\phpstorm\.ideavimrc
 ```
 
+set time and date formats
+
 ## App Config
 
 ### VSCode
@@ -82,7 +84,7 @@ C:\Users\{USER}\winstuff\vscode\init.vim
 
 ##### One Dark
 
-#### Settings
+#### Settings (version control settings.json)
 
 * set cursor to non blinking block
 * set git post commit command to sync
