@@ -6,3 +6,5 @@ nmap <leader>w :Write<cr>
 nmap <leader>q :Quit<cr>
 nnoremap j :call VSCodeCall('cursorDown')<cr>
 nnoremap k :call VSCodeCall('cursorUp')<cr>
+nnoremap H gT
+nnoremap L gt
