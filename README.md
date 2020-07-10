@@ -36,31 +36,22 @@ install apps
 
 ## Main Config
 
-clone winstuff folder into home directory: `git clone https://github.com/maxpiano/winstuff.git`
-
-import AHK scripts into task Scheduler
-
-enable systemwide dark theme
-
-enable small taskbar
-
-remove taskbar items / cortana / search field
-
-file explorer: show hidden files and extensions
-
-set desktop background to solid color #282c34
-
-make keyboard repeat faster
-
-set time and date formats
-
-[shortcut to user folder in taskbar](https://www.howtogeek.com/howto/17415/set-the-windows-explorer-startup-folder-in-windows-7/)
+* clone winstuff folder into home directory: `git clone https://github.com/maxpiano/winstuff.git`
+* import AHK scripts into task Scheduler
+* enable systemwide dark theme
+* enable small taskbar
+* remove taskbar items / cortana / search field
+* file explorer: show hidden files and extensions
+* set desktop background to solid color #282c34
+* make keyboard repeat faster
+* set time and date formats
+* [shortcut to user folder in taskbar](https://www.howtogeek.com/howto/17415/set-the-windows-explorer-startup-folder-in-windows-7/)
 
 ## App Config
 
 ### Windows Terminal
 
-hardlink settings.json
+* TODO: hardlink settings.json
 
 ### VSCode
 
@@ -69,7 +60,6 @@ hardlink settings.json
 ##### Neovim
 
 * path to executable: `C:\Users\{USER}\scoop\apps\neovim\current\bin\nvim.exe`
-
 * path to init.vim: `C:\Users\{USER}\winstuff\vscode\init.vim`
 
 ##### One Dark
