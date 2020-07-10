@@ -19,6 +19,8 @@ add buckets
 scoop bucket add nonportable
 scoop bucket add extras
 scoop bucket add nerd-fonts
+scoop bucket add jetbrains
+scoop bucket add yuanying https://github.com/yuanying1199/scoopbucket
 ```
 
 install apps
@@ -30,6 +32,9 @@ scoop install firacode (run as admin)
 scoop install git
 scoop install microsoft-edge-beta-np
 scoop install microsoft-terminal
+scoop install phpstorm
+scoop install phonerlite
+scoop install docker
 ```
 
 ## Main Config
@@ -54,15 +59,15 @@ set desktop background to solid color #282c34
 
 make keyboard repeat faster
 
-create hard link for .ideavimrc *(run in cmd)*
-
-``` 
-mklink /h C:\Users\{USER}\.ideavimrc C:\Users\{USER}\winstuff\phpstorm\.ideavimrc
-```
-
 set time and date formats
 
+[Shortcut to User Folder in Taskbar](https://www.howtogeek.com/howto/17415/set-the-windows-explorer-startup-folder-in-windows-7/)
+
 ## App Config
+
+### Windows Terminal
+
+hardlink settings.json
 
 ### VSCode
 
@@ -84,7 +89,7 @@ C:\Users\{USER}\winstuff\vscode\init.vim
 
 ##### One Dark
 
-#### Settings (version control settings.json)
+#### Settings (version control settings.json, and keybindings.json)
 
 * set cursor to non blinking block
 * set git post commit command to sync
@@ -100,8 +105,21 @@ C:\Users\{USER}\winstuff\vscode\init.vim
 * Surfingkeys
 * Reddit Enhancement Suite
 
-## Links
+### PhpStorm
 
+* make exception in windows firewall
+
+* create hard link for .ideavimrc *(run in cmd)*
+
+``` 
+mklink /h C:\Users\{USER}\.ideavimrc C:\Users\{USER}\winstuff\phpstorm\.ideavimrc
+```
+
+## TODO
+
+* debloat
+* composer
+* php
+* docker
+* xampp???
 * [EN International Keyboard without dead keys](https://github.com/thomasfaingnaert/win-us-intl-altgr/releases/download/v1.0/us-inter.zip)
-* [Scoop Package Manager](https://github.com/lukesampson/scoop)
-* [Shortcut to User Folder in Taskbar](https://www.howtogeek.com/howto/17415/set-the-windows-explorer-startup-folder-in-windows-7/)
