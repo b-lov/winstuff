@@ -18,6 +18,8 @@ add buckets
     scoop bucket add nerd-fonts
     scoop bucket add jetbrains
     scoop bucket add yuanying https://github.com/yuanying1199/scoopbucket
+    scoop bucket add wsl https://git.irs.sh/KNOXDEV/wsl
+    scoop bucket add Ash258 'https://github.com/Ash258/Scoop-Ash258.git'
 
 install apps
 
@@ -29,7 +31,8 @@ install apps
     scoop install microsoft-terminal
     scoop install phpstorm
     scoop install phonerlite
-    scoop install docker
+    scoop install Ash258/docker
+    scoop install wsl-ubuntu1804
 
 ## Main Config
 
@@ -96,6 +99,21 @@ hardlink settings.json
 
 * make exception in windows firewall
 * create hard link for .ideavimrc *(run in cmd)*: ` mklink /h C:\Users\{USER}\.ideavimrc C:\Users\{USER}\winstuff\phpstorm\.ideavimrc `
+
+## Dev Environment
+
+### WSL 2
+
+in admin powershell:
+
+    dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+    dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+
+restart
+
+    wsl --set-default-version 2
+
+([install wsl2 kernel](https://aka.ms/wsl2kernel))
 
 ## TODO
 
