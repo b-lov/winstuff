@@ -19,11 +19,12 @@ add buckets
     scoop bucket add jetbrains
     scoop bucket add yuanying https://github.com/yuanying1199/scoopbucket
     scoop bucket add wsl https://git.irs.sh/KNOXDEV/wsl
-    scoop bucket add Ash258 'https://github.com/Ash258/Scoop-Ash258.git'
+<!-- scoop bucket add Ash258 'https://github.com/Ash258/Scoop-Ash258.git' -->
 
 install apps
 
     scoop install vcredist2015
+    scoop install vcredist2017
     scoop install neovim
     scoop install firacode (run as admin)
     scoop install git
@@ -31,8 +32,10 @@ install apps
     scoop install microsoft-terminal
     scoop install phpstorm
     scoop install phonerlite
-    scoop install Ash258/docker
     scoop install wsl-ubuntu1804
+    scoop install php
+    scoop install composer
+<!-- scoop install Ash258/docker -->
 
 ## Main Config
 
@@ -57,14 +60,15 @@ install apps
 
 #### Plugins
 
-##### Neovim
+* Neovim
+    * path to executable: `C:\Users\{USER}\scoop\apps\neovim\current\bin\nvim.exe`
+    * path to init.vim: `C:\Users\{USER}\winstuff\vscode\init.vim`
 
-* path to executable: `C:\Users\{USER}\scoop\apps\neovim\current\bin\nvim.exe`
-* path to init.vim: `C:\Users\{USER}\winstuff\vscode\init.vim`
+* One Dark
 
-##### One Dark
+#### Settings
 
-#### Settings (version control settings.json, and keybindings.json)
+*(version control settings.json, and keybindings.json)*
 
 * set cursor to non blinking block
 * set git post commit command to sync
@@ -87,10 +91,16 @@ install apps
 
 ### PhpStorm
 
-* make exception in windows firewall
+* [make exception in windows firewall](https://intellij-support.jetbrains.com/hc/en-us/articles/360005028939)
 * create hard link for .ideavimrc *(run in cmd)*: ` mklink /h C:\Users\{USER}\.ideavimrc C:\Users\{USER}\winstuff\phpstorm\.ideavimrc `
 
 ## Dev Environment
+
+* enable openssl extension in php.ini
+
+### [Laragon](https://laragon.org/)
+
+* [download](https://github.com/leokhoa/laragon/releases/download/4.0.15/laragon-full.exe)
 
 ### WSL 2
 
@@ -101,13 +111,18 @@ in admin powershell:
 
 restart
 
+[install wsl2 kernel](https://aka.ms/wsl2kernel) (optional))
+
     wsl --set-default-version 2
 
-([install wsl2 kernel](https://aka.ms/wsl2kernel))
+start windows terminal
+
+    sudo bash -c 'for i in update {,dist-}upgrade auto{remove,clean}; do apt-get $i -y; done'
 
 ## TODO
 
 * debloat
+* tronscript
 * composer
 * php
 * docker
