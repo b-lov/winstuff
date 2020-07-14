@@ -1,4 +1,4 @@
-# Winstuff
+<h1 align="center">Winstuff</h1>
 
 *scripts and infos to make a windows machine ready for development after a clean install*
 
