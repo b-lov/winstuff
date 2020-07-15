@@ -2,7 +2,7 @@
 
 *scripts and infos to make a windows machine ready for development after a clean install*
 
-**first run Windows Update as often as needed**
+**after installation run windows update as often as needed**
 
 ## [Scoop](https://github.com/lukesampson/scoop)
 
@@ -37,7 +37,7 @@ install apps
     scoop install composer
 <!-- scoop install Ash258/docker -->
 
-## Main Config
+## Windows Config
 
 * clone winstuff folder into home directory: `git clone https://github.com/maxpiano/winstuff.git`
 * import AHK scripts into task Scheduler
@@ -58,69 +58,53 @@ install apps
 
 ### VSCode
 
-#### Plugins
+* #### Plugins
+    * Neovim
+        * path to executable: `C:\Users\{USER}\scoop\apps\neovim\current\bin\nvim.exe`
+        * path to init.vim: `C:\Users\{USER}\winstuff\vscode\init.vim`
+    * One Dark
 
-* Neovim
-    * path to executable: `C:\Users\{USER}\scoop\apps\neovim\current\bin\nvim.exe`
-    * path to init.vim: `C:\Users\{USER}\winstuff\vscode\init.vim`
-
-* One Dark
-
-#### Settings
-
-*(version control settings.json, and keybindings.json)*
-
-* set cursor to non blinking block
-* set git post commit command to sync
-* set autosave to onFocusChange
-* set font to "Fira Code" and enable ligatures
+* #### Settings
+    * TODO: (version control settings.json, and keybindings.json)
+    * set cursor to non blinking block
+    * set git post commit command to sync
+    * set autosave to onFocusChange
+    * set font to "Fira Code" and enable ligatures
 
 ### Edge
 
-#### Extensions
+* #### Extensions
+    * Bitwarden
+    * Ublock Origin
+    * Surfingkeys
+    * Reddit Enhancement Suite
 
-* Bitwarden
-* Ublock Origin
-* Surfingkeys
-* Reddit Enhancement Suite
-
-#### Settings
-
-* on startup > continue where you left off
-* search engine > google
+* #### Settings
+    * on startup > continue where you left off
+    * search engine > google
 
 ### PhpStorm
 
 * [make exception in windows firewall](https://intellij-support.jetbrains.com/hc/en-us/articles/360005028939)
 * create hard link for .ideavimrc *(run in cmd)*: ` mklink /h C:\Users\{USER}\.ideavimrc C:\Users\{USER}\winstuff\phpstorm\.ideavimrc `
 
-## Dev Environment
-
-* enable openssl extension in php.ini
-
-### [Laragon](https://laragon.org/)
-
-* [download](https://github.com/leokhoa/laragon/releases/download/4.0.15/laragon-full.exe)
-
-### WSL 2
-
-in admin powershell:
-
-    dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
-    dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
-
-restart
-
-[install wsl2 kernel](https://aka.ms/wsl2kernel) (optional))
-
-    wsl --set-default-version 2
-
-start windows terminal
-
-    sudo bash -c 'for i in update {,dist-}upgrade auto{remove,clean}; do apt-get $i -y; done'
+## WSL 2
+* install *(admin powershell)*:
+```
+dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+```
+* restart machine
+* (optional) [install wsl2 kernel](https://aka.ms/wsl2kernel)
+```
+wsl --set-default-version 2
+```
+* start windows terminal
+```
+sudo bash -c 'for i in update {,dist-}upgrade auto{remove,clean}; do apt-get $i -y; done'
+```
 
 ## TODO
-
 * debloat
 * tronscript
 * composer
