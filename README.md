@@ -6,35 +6,36 @@
 
 ## [Scoop](https://github.com/lukesampson/scoop)
 
-install *(powershell)*
-
-    Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-    iwr -useb get.scoop.sh | iex
-
-add buckets
-
-    scoop bucket add nonportable
-    scoop bucket add extras
-    scoop bucket add nerd-fonts
-    scoop bucket add jetbrains
-    scoop bucket add yuanying https://github.com/yuanying1199/scoopbucket
-    scoop bucket add wsl https://git.irs.sh/KNOXDEV/wsl
+* install *(powershell)*:
+```
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+iwr -useb get.scoop.sh | iex
+```
+* add buckets:
+```
+scoop bucket add nonportable
+scoop bucket add extras
+scoop bucket add nerd-fonts
+scoop bucket add jetbrains
+scoop bucket add yuanying https://github.com/yuanying1199/scoopbucket
+scoop bucket add wsl https://git.irs.sh/KNOXDEV/wsl
+```
 <!-- scoop bucket add Ash258 'https://github.com/Ash258/Scoop-Ash258.git' -->
-
-install apps
-
-    scoop install vcredist2015
-    scoop install vcredist2017
-    scoop install neovim
-    scoop install firacode (run as admin)
-    scoop install git
-    scoop install microsoft-edge-beta-np
-    scoop install microsoft-terminal
-    scoop install phpstorm
-    scoop install phonerlite
-    scoop install wsl-ubuntu1804
-    scoop install php
-    scoop install composer
+* install apps:
+```
+scoop install vcredist2015
+scoop install vcredist2017
+scoop install neovim
+scoop install firacode (run as admin)
+scoop install git
+scoop install microsoft-edge-beta-np
+scoop install microsoft-terminal
+scoop install phpstorm
+scoop install phonerlite
+scoop install wsl-ubuntu1804
+scoop install php
+scoop install composer
+```
 <!-- scoop install Ash258/docker -->
 
 ## Windows Config
@@ -53,17 +54,14 @@ install apps
 ## App Config
 
 ### Windows Terminal
-
 * TODO: hardlink settings.json
 
 ### VSCode
-
 * #### Plugins
     * Neovim
         * path to executable: `C:\Users\{USER}\scoop\apps\neovim\current\bin\nvim.exe`
         * path to init.vim: `C:\Users\{USER}\winstuff\vscode\init.vim`
     * One Dark
-
 * #### Settings
     * TODO: (version control settings.json, and keybindings.json)
     * set cursor to non blinking block
@@ -72,19 +70,16 @@ install apps
     * set font to "Fira Code" and enable ligatures
 
 ### Edge
-
 * #### Extensions
     * Bitwarden
     * Ublock Origin
     * Surfingkeys
     * Reddit Enhancement Suite
-
 * #### Settings
     * on startup > continue where you left off
     * search engine > google
 
 ### PhpStorm
-
 * [make exception in windows firewall](https://intellij-support.jetbrains.com/hc/en-us/articles/360005028939)
 * create hard link for .ideavimrc *(run in cmd)*: ` mklink /h C:\Users\{USER}\.ideavimrc C:\Users\{USER}\winstuff\phpstorm\.ideavimrc `
 
@@ -99,7 +94,8 @@ dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /nores
 ```
 wsl --set-default-version 2
 ```
-* start windows terminal
+* install ubuntu from windows store (or scoop)
+* run from ubuntu:
 ```
 sudo bash -c 'for i in update {,dist-}upgrade auto{remove,clean}; do apt-get $i -y; done'
 ```
