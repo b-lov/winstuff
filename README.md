@@ -50,6 +50,7 @@ scoop install composer
 * make keyboard repeat faster
 * set time and date formats
 * [shortcut to user folder in taskbar](https://www.howtogeek.com/howto/17415/set-the-windows-explorer-startup-folder-in-windows-7/)
+* disable all game related settings
 
 ## App Config
 
@@ -99,6 +100,11 @@ wsl --set-default-version 2
 ```
 sudo bash -c 'for i in update {,dist-}upgrade auto{remove,clean}; do apt-get $i -y; done'
 ```
+
+## Debloat
+* iex ((New-Object System.Net.WebClient).DownloadString('https://git.io/debloat'))
+* https://github.com/builtbybel/spydish
+* https://www.reddit.com/r/TronScript/
 
 ## TODO
 * debloat
