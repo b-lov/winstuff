@@ -114,3 +114,4 @@ sudo bash -c 'for i in update {,dist-}upgrade auto{remove,clean}; do apt-get $i 
 * docker
 * xampp???
 * [EN International Keyboard without dead keys](https://github.com/thomasfaingnaert/win-us-intl-altgr/releases/download/v1.0/us-inter.zip)
+* God Mode
