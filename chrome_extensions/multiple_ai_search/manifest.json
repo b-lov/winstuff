@@ -1,7 +1,7 @@
 {
 	"manifest_version": 3,
 	"name": "Multiple AI Search",
-	"version": "1.0",
+	"version": "0.1",
 	"description": "Open multiple AI searches in separate tabs",
 	"permissions": ["tabs"],
 	"background": {
