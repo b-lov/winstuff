@@ -1,0 +1,13 @@
+{
+	"manifest_version": 3,
+	"name": "Multiple AI Search",
+	"version": "1.0",
+	"description": "Open multiple AI searches in separate tabs",
+	"permissions": ["tabs"],
+	"background": {
+		"service_worker": "background.js"
+	},
+	"omnibox": {
+		"keyword": "c"
+	}
+}
