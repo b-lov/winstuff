@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Dual AI Search",
+  "version": "1.0",
+  "description": "Open ChatGPT and Claude searches in separate tabs",
+  "permissions": [
+    "tabs"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "omnibox": {
+    "keyword": "c"
+  }
+}
