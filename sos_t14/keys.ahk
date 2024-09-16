@@ -55,4 +55,6 @@ b::
     } else Run "msedge.exe"
 }
 f:: Run "C:\Users\BilovM\Downloads"
+F2::Volume_Down
+F3::Volume_Up
 #HotIf
