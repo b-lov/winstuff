@@ -57,4 +57,5 @@ b::
 f:: Run "C:\Users\BilovM\Downloads"
 F2::Volume_Down
 F3::Volume_Up
+/:: ^+a
 #HotIf
