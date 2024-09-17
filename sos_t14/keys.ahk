@@ -48,14 +48,17 @@ t::
         WinActivate "ahk_exe WindowsTerminal.exe"
     } else Run "wt.exe"
 }
-b::
-{
+b:: {
     if (WinExist("ahk_exe msedge.exe")) {
         WinActivate "ahk_exe msedge.exe"
     } else Run "msedge.exe"
 }
-f:: Run "C:\Users\BilovM\Downloads"
+f:: {
+    if WinExist("ahk_class CabinetWClass") {
+        WinActivate
+    } else Run "C:\Users\BilovM\Downloads"
+}
 F2::Volume_Down
 F3::Volume_Up
-/:: ^+a
+/::^+a
 #HotIf
