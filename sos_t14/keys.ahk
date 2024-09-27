@@ -36,6 +36,7 @@ s:: Send "ß"
 +a:: Send "Ä"
 +o:: Send "Ö"
 +u:: Send "Ü"
+2:: Send "€"
 e::
 {
     if (WinExist("ahk_exe code.exe")) {
