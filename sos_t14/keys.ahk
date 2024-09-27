@@ -37,14 +37,12 @@ s:: Send "ß"
 +o:: Send "Ö"
 +u:: Send "Ü"
 2:: Send "€"
-e::
-{
+e:: {
     if (WinExist("ahk_exe code.exe")) {
         WinActivate "ahk_exe code.exe"
     } else Run "C:\Users\BilovM\AppData\Local\Programs\Microsoft VS Code\code.exe"
 }
-t::
-{
+t:: {
     if (WinExist("ahk_exe WindowsTerminal.exe")) {
         WinActivate "ahk_exe WindowsTerminal.exe"
     } else Run "wt.exe"
