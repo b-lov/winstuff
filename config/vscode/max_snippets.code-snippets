@@ -1,0 +1,72 @@
+{
+  "prejson": {
+    "scope": "svelte, html",
+    "prefix": "prejson",
+    "body": "<pre>{JSON.stringify($1, null, 2)}</pre>",
+    "description": "pretty-print JSON objects in HTML"
+  },
+  "imt": {
+    "scope": "javascript, typescript",
+    "prefix": "imt",
+    "body": [
+      "import type { ${2:type} } from '${1:location}';"
+    ],
+    "description": "import type"
+  },
+  "pcss": {
+    "scope": "svelte",
+    "prefix": "pcss",
+    "body": [
+      "<style lang=\"postcss\">",
+      "  ${1:/*  */}",
+      "</style>"
+    ],
+    "description": "svelte style tag with postcss"
+  },
+  "sm": {
+    "scope": "svelte, html",
+    "prefix": "sm",
+    "body": [
+      "<script context=\"module\">",
+      "  ${1://}",
+      "</script>"
+    ],
+    "description": "svelte script tag with typescript"
+  },
+  "stsm": {
+    "scope": "svelte, html",
+    "prefix": "stsm",
+    "body": [
+      "<script lang=\"ts\" context=\"module\">",
+      "  ${1://}",
+      "</script>"
+    ],
+    "description": "svelte script tag with typescript"
+  },
+  "sts": {
+    "scope": "svelte, html",
+    "prefix": "sts",
+    "body": [
+      "<script lang=\"ts\">",
+      "  ${1://}",
+      "</script>"
+    ],
+    "description": "svelte script tag with typescript"
+  },
+  "clg": {
+    "scope": "javascript, typescript",
+    "prefix": "clg",
+    "body": [
+      "console.log($1)"
+    ],
+    "description": "console log"
+  },
+  "typ": {
+    "scope": "javascript, typescript, svelte",
+    "prefix": "typ",
+    "body": [
+      "/** @type {${1:type}} */"
+    ],
+    "description": "type alias for jsdoc"
+  }
+}
