@@ -2,12 +2,7 @@
 
 ; Remap Capslock to Ctrl
 Capslock::Ctrl
-
-Capslock Up:: {
-    Send "{Ctrl Up}"
-    if (A_PriorKey = "Capslock") ; if Capslock was pressed alone
-        Send "{Esc}"
-}
+Capslock Up:: Send("{Ctrl Up}"), A_PriorKey = "Capslock" ? Send("{Esc}") : ""
 
 ; Make space a modifier key
 Space:: return
