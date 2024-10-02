@@ -1,12 +1,84 @@
 {
+	"AHK++.v2.file": {
+		"interpreterPath": "C:\\Users\\BilovM\\AppData\\Local\\Programs\\AutoHotkey\\v2\\AutoHotkey64.exe",
+		"maxScanDepth": 2
+	},
+	"[css]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[svelte]": {
+		"editor.defaultFormatter": "svelte.svelte-vscode"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"apc.electron": {
+		"frame": false
+	},
+	"apc.stylesheet": {
+		".monaco-icon-label>.monaco-icon-label-container>.monaco-icon-name-container>.label-name": "letter-spacing: 0.25px;",
+		".monaco-scrollable-element>.scrollbar.vertical": "display:none !important",
+		".monaco-workbench .part.sidebar .title-actions .actions-container": "justify-content: start !important;",
+		".sidebar > div.composite.title > div.title-label": "display: none !important"
+	},
+	"breadcrumbs.enabled": false,
+	"css.lint.unknownAtRules": "ignore",
+	"editor.cursorBlinking": "phase",
+	"editor.cursorSurroundingLines": 3,
+	"editor.find.addExtraSpaceOnTop": false,
+	"editor.fontFamily": "'Rec Mono Casual', 'Cascadia Code'",
+	"editor.fontLigatures": true,
+	"editor.fontSize": 16,
+	"editor.glyphMargin": false,
+	"editor.guides.bracketPairs": "active",
+	"editor.guides.indentation": false,
+	"editor.hideCursorInOverviewRuler": true,
+	"editor.insertSpaces": false,
+	"editor.lineHeight": 2,
+	"editor.lineNumbers": "off",
+	"editor.matchBrackets": "never",
+	"editor.minimap.enabled": false,
+	"editor.occurrencesHighlight": "off",
+	"editor.overviewRulerBorder": false,
+	"editor.padding.top": 24,
+	"editor.renderLineHighlight": "all",
+	"editor.renderWhitespace": "none",
+	"editor.scrollBeyondLastLine": false,
+	"editor.scrollbar.horizontal": "hidden",
+	"editor.scrollbar.vertical": "hidden",
+	"editor.smoothScrolling": true,
+	"editor.stickyScroll.enabled": false,
+	"editor.tabSize": 2,
 	"editor.tokenColorCustomizations": {
 		"[Flexoki Dark]": {
 			"textMateRules": [
 				{
-					"scope": ["entity.name.function", "support.function"],
-					"settings": { "fontStyle": "" }
+					"scope": [
+						"entity.name.function",
+						"support.function"
+					],
+					"settings": {
+						"fontStyle": ""
+					}
 				},
-				{ "scope": "comment", "settings": { "fontStyle": "italic" } },
+				{
+					"scope": "comment",
+					"settings": {
+						"fontStyle": "italic"
+					}
+				},
 				{
 					"scope": [
 						"punctuation",
@@ -17,138 +89,110 @@
 						"punctuation.separator",
 						"comment"
 					],
-					"settings": { "foreground": "#575653" }
+					"settings": {
+						"foreground": "#575653"
+					}
 				}
 			]
 		}
 	},
-	"workbench.colorTheme": "Flexoki Dark",
-	"symbols.hidesExplorerArrows": true,
-	"workbench.iconTheme": "symbols",
-	"window.menuBarVisibility": "toggle",
-	"window.commandCenter": false,
-	"workbench.layoutControl.enabled": false,
-	"workbench.editor.empty.hint": "hidden",
-	"workbench.editor.showTabs": "none",
-	"editor.fontFamily": "'Rec Mono Casual', 'Cascadia Code'",
-	"editor.minimap.enabled": false,
-	"editor.lineNumbers": "off",
-	"editor.smoothScrolling": true,
-	"editor.glyphMargin": false,
-	"editor.occurrencesHighlight": "off",
-	"editor.cursorBlinking": "phase",
-	"editor.scrollbar.horizontal": "hidden",
-	"editor.scrollbar.vertical": "hidden",
-	"editor.overviewRulerBorder": false,
-	"editor.hideCursorInOverviewRuler": true,
-	"zenMode.showTabs": "none",
-	"workbench.tips.enabled": false,
-	"window.titleBarStyle": "native",
-	"apc.electron": {
-		"frame": false
-	},
-	"apc.stylesheet": {
-		".sidebar > div.composite.title > div.title-label": "display: none !important",
-		".monaco-icon-label>.monaco-icon-label-container>.monaco-icon-name-container>.label-name": "letter-spacing: 0.25px;",
-		".monaco-workbench .part.sidebar .title-actions .actions-container": "justify-content: start !important;",
-		".monaco-scrollable-element>.scrollbar.vertical": "display:none !important"
-	},
-	"workbench.editor.editorActionsLocation": "hidden",
+	"editor.unicodeHighlight.ambiguousCharacters": false,
+	"editor.unicodeHighlight.nonBasicASCII": false,
 	"explorer.compactFolders": false,
-	"workbench.colorCustomizations": {
-		"focusBorder": "#ff000000",
-		"list.focusBackground": "#282726",
-		"sideBar.background": "#1C1B1A",
-		"statusBar.background": "#1C1B1A",
-		"statusBar.noFolderBackground": "#1C1B1A",
-		"statusBar.border": "#00000000",
-		"sideBar.border": "#00000000",
-		"activityBar.border": "#00000000",
-		"editor.lineHighlightBorder": "#00000000",
-		"editorGroup.border": "#00000000"
-	},
 	"explorer.sortOrder": "filesFirst",
 	"explorer.sortOrderLexicographicOptions": "lower",
-	"editor.cursorSurroundingLines": 3,
-	"security.workspace.trust.untrustedFiles": "open",
-	"editor.padding.top": 24,
-	"git.enableSmartCommit": true,
-	"terminal.integrated.fontSize": 16,
-	"terminal.integrated.lineHeight": 1.4,
-	"git.confirmSync": false,
+	"files.autoSave": "onFocusChange",
+	"files.eol": "\n",
 	"git.autofetch": true,
+	"git.confirmSync": false,
+	"git.enableSmartCommit": true,
+	"git.openRepositoryInParentFolders": "always",
 	"git.postCommitCommand": "push",
 	"git.useEditorAsCommitInput": false,
-	"workbench.editor.labelFormat": "short",
-	"workbench.tree.indent": 16,
-	"editor.tabSize": 2,
+	"github.copilot.enable": {
+		"*": true,
+		"markdown": true,
+		"plaintext": false,
+		"scminput": false
+	},
+	"markdown.preview.breaks": true,
+	"markdown.preview.fontSize": 18,
+	"prettier.useTabs": true,
+	"scm.alwaysShowRepositories": true,
+	"scm.diffDecorations": "gutter",
+	"security.workspace.trust.untrustedFiles": "open",
+	"sherlock.previewLanguageTag": "de",
+	"sherlock.userId": "a211e2ef-28d0-44e1-8610-724f28df1ec0",
 	"svelte.enable-ts-plugin": true,
-	"files.autoSave": "onFocusChange",
+	"symbols.hidesExplorerArrows": true,
+	"tailwind-fold.autoFold": true,
+	"tailwind-fold.foldedText": "",
+	"tailwind-fold.unfoldedTextOpacity": 0.6,
+	"telemetry.telemetryLevel": "off",
 	"terminal.integrated.confirmOnExit": "always",
+	"terminal.integrated.enablePersistentSessions": false,
+	"terminal.integrated.fontSize": 16,
+	"terminal.integrated.lineHeight": 1.4,
+	"terminal.integrated.tabs.enabled": false,
+	"vim.easymotion": true,
+	"vim.foldfix": true,
+	"vim.handleKeys": {
+		"<C-b>": false,
+		"<C-f>": false,
+		"<C-k>": false
+	},
 	"vim.normalModeKeyBindings": [
 		{
-			"before": ["ctrl+p"],
-			"commands": ["workbench.action.quickOpen"],
+			"before": [
+				"ctrl+p"
+			],
+			"commands": [
+				"workbench.action.quickOpen"
+			],
 			"silent": true
 		}
 	],
 	"vim.normalModeKeyBindingsNonRecursive": [
-		{ "before": ["s"], "after": ["leader", "leader", "2", "s"] }
+		{
+			"after": [
+				"leader",
+				"leader",
+				"2",
+				"s"
+			],
+			"before": [
+				"s"
+			]
+		}
 	],
-	"vim.handleKeys": { "<C-k>": false, "<C-b>": false, "<C-f>": false },
-	"breadcrumbs.enabled": false,
-	"editor.fontSize": 16,
-	"telemetry.telemetryLevel": "off",
-	"markdown.preview.fontSize": 18,
-	"editor.renderWhitespace": "none",
-	"vim.easymotion": true,
-	"window.zoomLevel": 0.7,
-	"editor.lineHeight": 2,
-	"editor.unicodeHighlight.ambiguousCharacters": false,
-	"editor.unicodeHighlight.nonBasicASCII": false,
-	"scm.diffDecorations": "gutter",
-	"editor.stickyScroll.enabled": false,
-	"editor.scrollBeyondLastLine": false,
-	"editor.find.addExtraSpaceOnTop": false,
-	"terminal.integrated.tabs.enabled": false,
-	"vim.foldfix": true,
-	"editor.fontLigatures": true,
-	"editor.renderLineHighlight": "all",
-	"editor.guides.bracketPairs": "active",
-	"editor.matchBrackets": "never",
-	"terminal.integrated.enablePersistentSessions": false,
-	"editor.insertSpaces": false,
-	"prettier.useTabs": true,
+	"window.commandCenter": false,
+	"window.menuBarVisibility": "toggle",
 	"window.restoreWindows": "none",
-	"css.lint.unknownAtRules": "ignore",
-	"scm.alwaysShowRepositories": true,
-	"[jsonc]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-	"[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-	"[svelte]": { "editor.defaultFormatter": "svelte.svelte-vscode" },
-	"[html]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-	"[json]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-	"[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-	"[css]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-	"sherlock.userId": "a211e2ef-28d0-44e1-8610-724f28df1ec0",
-	"sherlock.previewLanguageTag": "de",
-	"tailwind-fold.unfoldedTextOpacity": 0.6,
-	"tailwind-fold.foldedText": "",
-	"editor.guides.indentation": false,
-	"tailwind-fold.autoFold": true,
-	"files.eol": "\n",
-	"github.copilot.enable": {
-		"*": true,
-		"plaintext": false,
-		"markdown": true,
-		"scminput": false
-	},
-	"markdown.preview.breaks": true,
-	"git.openRepositoryInParentFolders": "always",
-	"AHK++.v2.file": {
-		"interpreterPath": "C:\\Users\\BilovM\\AppData\\Local\\Programs\\AutoHotkey\\v2\\AutoHotkey64.exe",
-		"maxScanDepth": 2
-	},
+	"window.titleBarStyle": "native",
+	"window.zoomLevel": 0.7,
 	"workbench.activityBar.location": "hidden",
+	"workbench.colorCustomizations": {
+		"activityBar.border": "#00000000",
+		"editor.lineHighlightBorder": "#00000000",
+		"editorGroup.border": "#00000000",
+		"focusBorder": "#ff000000",
+		"list.focusBackground": "#282726",
+		"sideBar.background": "#1C1B1A",
+		"sideBar.border": "#00000000",
+		"statusBar.background": "#1C1B1A",
+		"statusBar.border": "#00000000",
+		"statusBar.noFolderBackground": "#1C1B1A"
+	},
+	"workbench.colorTheme": "Flexoki Dark",
+	"workbench.editor.editorActionsLocation": "hidden",
+	"workbench.editor.empty.hint": "hidden",
+	"workbench.editor.labelFormat": "short",
+	"workbench.editor.showTabs": "none",
+	"workbench.iconTheme": "symbols",
+	"workbench.layoutControl.enabled": false,
 	"workbench.startupEditor": "none",
-	"workbench.statusBar.visible": false
+	"workbench.statusBar.visible": false,
+	"workbench.tips.enabled": false,
+	"workbench.tree.indent": 16,
+	"zenMode.showTabs": "none"
 }
