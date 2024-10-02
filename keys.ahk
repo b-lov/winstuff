@@ -57,6 +57,9 @@ f:: {
         WinActivate
     } else Run "C:\Users\BilovM\Downloads"
 }
+; m::Run "olk.exe",,,PID | WinActivate "ahk_pid " PID
+; m::Run "olk.exe", , "Max", "ahk_exe olk.exe"
+; m::if WinExist("ahk_exe olk.exe") ? WinActivate() : Run("olk.exe")
 m:: {
     if (WinExist("ahk_exe olk.exe")) {
         WinActivate "ahk_exe olk.exe"
