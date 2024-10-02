@@ -57,5 +57,10 @@ f:: {
         WinActivate
     } else Run "C:\Users\BilovM\Downloads"
 }
+m:: {
+    if (WinExist("ahk_exe olk.exe")) {
+        WinActivate "ahk_exe olk.exe"
+    } else Run "olk.exe"
+}
 /::^+a
 #HotIf
