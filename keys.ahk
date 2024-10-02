@@ -26,5 +26,6 @@ t:: WinExist("ahk_exe WindowsTerminal.exe") ? WinActivate() : Run("wt.exe")
 b:: WinExist("ahk_exe msedge.exe") ? WinActivate() : Run("msedge.exe")
 f:: WinExist("ahk_class CabinetWClass") ? WinActivate() : Run("C:\Users\" A_UserName "\Downloads")
 m:: WinExist("ahk_exe olk.exe") ? WinActivate() : Run("olk.exe")
+c:: WinExist("ahk_exe ms-teams.exe") ? WinActivate() : Run("ms-teams.exe")
 /::^+a
 #HotIf
