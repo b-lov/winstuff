@@ -176,11 +176,11 @@
 		"editor.lineHighlightBorder": "#00000000",
 		"editorGroup.border": "#00000000",
 		"focusBorder": "#ff000000",
+		"statusBar.border": "#00000000",
+		"sideBar.border": "#00000000",
 		"list.focusBackground": "#282726",
 		"sideBar.background": "#1C1B1A",
-		"sideBar.border": "#00000000",
 		"statusBar.background": "#1C1B1A",
-		"statusBar.border": "#00000000",
 		"statusBar.noFolderBackground": "#1C1B1A"
 	},
 	"workbench.colorTheme": "Flexoki Dark",
