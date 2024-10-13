@@ -1,0 +1,107 @@
+{
+	"AHK++.v2.file": {
+		"interpreterPath": "C:\\Users\\BilovM\\AppData\\Local\\Programs\\AutoHotkey\\v2\\AutoHotkey64.exe"
+	},
+	"editor.cursorBlinking": "phase",
+	"editor.fontFamily": "Maple Mono",
+	// "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
+	"editor.fontSize": 15,
+	"editor.guides.bracketPairs": "active",
+	"editor.guides.indentation": false,
+	"editor.hideCursorInOverviewRuler": true,
+	"editor.insertSpaces": false,
+	"editor.lineHeight": 1.6,
+	"editor.links": false,
+	"editor.minimap.enabled": false,
+	"editor.padding.top": 24,
+	"editor.renderWhitespace": "none",
+	"editor.scrollbar.horizontal": "hidden",
+	"editor.scrollbar.vertical": "hidden",
+	"editor.smoothScrolling": true,
+	"editor.tabSize": 2,
+	"editor.tokenColorCustomizations": {
+		"[Flexoki Dark]": {
+			"textMateRules": [
+				// {
+				// 	"scope": [
+				// 		"entity.name.function",
+				// 		"support.function"
+				// 	],
+				// 	"settings": {
+				// 		"fontStyle": ""
+				// 	}
+				// },
+				{
+					"scope": "comment",
+					"settings": {
+						"fontStyle": "italic"
+					}
+				},
+				{
+					"scope": [
+						"punctuation",
+						"punctuation.definition.tag",
+						"punctuation.definition.string",
+						"punctuation.definition.comment",
+						"punctuation.terminator",
+						"punctuation.separator",
+						"comment"
+					],
+					"settings": {
+						"foreground": "#575653"
+					}
+				}
+			]
+		}
+	},
+	"files.autoSave": "onFocusChange",
+	"git.autofetch": true,
+	"git.confirmSync": false,
+	"git.enableSmartCommit": true,
+	"git.postCommitCommand": "sync",
+	"git.useEditorAsCommitInput": false,
+	"markdown.preview.breaks": true,
+	"markdown.preview.fontFamily": "Quicksand, -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif",
+	"markdown.preview.fontSize": 16,
+	"security.workspace.trust.untrustedFiles": "open",
+	"symbols.hidesExplorerArrows": true,
+	"vim.easymotion": true,
+	"vim.normalModeKeyBindingsNonRecursive": [
+		{
+			"after": [
+				"leader",
+				"leader",
+				"2",
+				"s"
+			],
+			"before": [
+				"s"
+			]
+		}
+	],
+	"window.commandCenter": false,
+	"window.titleBarStyle": "native",
+	"workbench.colorCustomizations": {
+		"activityBar.border": "#00000000",
+		"editor.lineHighlightBorder": "#00000000",
+		"editorGroup.border": "#00000000",
+		"editorOverviewRuler.border": "#00000000",
+		"focusBorder": "#878580",
+		"panel.border": "#00000000",
+		"sideBar.border": "#00000000",
+		"sideBarSectionHeader.border": "#00000000",
+		"statusBar.border": "#00000000",
+		"tab.border": "#00000000",
+		"titleBar.border": "#00000000",
+		"widget.border": "#00000000"
+	},
+	"workbench.colorTheme": "Flexoki Dark",
+	"workbench.editor.empty.hint": "hidden",
+	"workbench.iconTheme": "symbols",
+	"workbench.layoutControl.enabled": false,
+	"workbench.startupEditor": "none",
+	"workbench.tips.enabled": false,
+	"zenMode.centerLayout": false,
+	"zenMode.fullScreen": false,
+	"zenMode.showTabs": "none"
+}
