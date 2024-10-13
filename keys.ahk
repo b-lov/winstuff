@@ -2,10 +2,11 @@
 
 ; Remap Capslock to Ctrl
 Capslock::Ctrl
-Capslock Up:: Send("{Ctrl Up}"), A_PriorKey = "Capslock" ? Send("{Esc}") : ""
+Capslock Up:: Send("{Ctrl Up}"), A_PriorKey != "Capslock" ? "" : Send("{Esc}")
+; Capslock Up:: Send("{Ctrl Up}"), A_PriorKey = "Capslock" ? Send("{Esc}") : ""
 
 ; Make space a modifier key
-Space:: return
+Space::return
 Space Up:: A_PriorKey = "Space" ? Send("{Space}") : ""
 
 #HotIf GetKeyState("Space", "P")
