@@ -13,6 +13,7 @@
 	"editor.lineHeight": 1.6,
 	"editor.links": false,
 	"editor.minimap.enabled": false,
+	"editor.occurrencesHighlight": "off",
 	"editor.padding.top": 24,
 	"editor.renderWhitespace": "none",
 	"editor.scrollbar.horizontal": "hidden",
