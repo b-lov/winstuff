@@ -22,15 +22,15 @@
 	"editor.tokenColorCustomizations": {
 		"[Flexoki Dark]": {
 			"textMateRules": [
-				// {
-				// 	"scope": [
-				// 		"entity.name.function",
-				// 		"support.function"
-				// 	],
-				// 	"settings": {
-				// 		"fontStyle": ""
-				// 	}
-				// },
+				{
+					"scope": [
+						"entity.name.function",
+						"support.function"
+					],
+					"settings": {
+						"fontStyle": ""
+					}
+				},
 				{
 					"scope": "comment",
 					"settings": {
