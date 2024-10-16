@@ -2,6 +2,7 @@
 	"AHK++.v2.file": {
 		"interpreterPath": "C:\\Users\\BilovM\\AppData\\Local\\Programs\\AutoHotkey\\v2\\AutoHotkey64.exe"
 	},
+	"breadcrumbs.enabled": false,
 	"editor.cursorBlinking": "phase",
 	"editor.fontFamily": "Maple Mono",
 	// "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
